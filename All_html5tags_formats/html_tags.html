@@ -1,0 +1,175 @@
+<!DOCTYPE html> <!--It helps to know that this is the html file--> 
+<html lang="en">
+    <head>  <!--It tells about all tha meta information of the document.-->
+        <meta charset="UTF-8" />  <!--Called character encoding-->
+        <meta name="viewport" contents="width=device-width," /> <!--It takes all the space available on the device. And enhance the look of the device.-->
+        <meta name="description" contents="This is all about html tags." />
+        <meta name="keyword" contents="HTML TAGS" />
+        <title>My Learning HTML Page</title>
+        <style>
+            <!--CSS Styles-->
+        </style>
+        <script>
+            //Javascript
+        </script>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <!--Heading Tags-->
+        <h1>This is the first heading tag.</h1>
+        <h2>This is the second heading tag.</h2>
+        <h3>This is the third heading tag.</h3>
+        <h4>This is the fourth heading tag.</h4>
+        <h5>This is the fifth heading tag.</h5>
+        <h6>This is the sixth  heading tag.</h6>
+
+        <!--Horizontal Tag-->
+        <hr />
+
+        <!--Paragraph Tag-->
+        <br>Lorem ipsum, <em>dolor</em> sit amet consectetur <strong>adipisicing elit.</strong> 
+            Facilis, dolorem <b>official</b> repellat <q>nisi beatae error culpa</q> 
+            ut sapiente, <i>sed dolor officiis</i> ducimus veritatis architecto <br />
+            et illo cumque! Ullam, dolores quod.
+        </p>
+
+        <!--Try to use this tag <blackquote cite="cite_link">Put Content Here</blackquote>-->
+        
+        <!--Pre Formatting Tag-->
+        <pre>
+            My
+             name
+            is 
+               Shalu
+            Yadav
+        </pre>
+
+        <!--Image Tag-->
+        <img src="image_address" alt="My Photo" width="200px" height="200px"/>
+
+        <!--Anchor Tag-->
+        <a href="link_address" target="_blank">Open Stylish Page in new tab.</a>
+        <a href="link_address">Open Stylish Page in same tab.</a>
+        <!--HTML Formatting Tags: b, em, strong, q, i,small,
+            mark,del,ins:insert tag , sub, sup-->
+        
+        <hr />
+        
+        <!--List: Unordered, Ordered, description_list -->
+        <!--Ordered list -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <!--Unordered List -->
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <!--Description List -->
+        <dl>
+            <dt>Html</dt>
+            <dd>Used for Web pages layouts.</dd>
+            <dt>CSS</dt>
+            <dd>Used for Web pages styling.</dd>
+            <dt>JavaScript</dt>
+            <dd>Used for Web pages logical structure.</dd>
+        </dl>
+
+        <hr />
+
+        <!--Block Level Elements And Inline Elements-->
+        //Any elements that holds or occupy whole space and starts with new line is block level.
+        <!-- h1-h6, div, p are block level elements -->
+        //Any elements that do not starts with new line and doesn't occupy whole space is inline elements.
+        <!-- img, a, span-->
+
+        <hr />
+
+        <!--table tags -->
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>HTMl</td>
+                <td>Structuring Webpage</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Styling Webpage</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Logical View</td>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>JavaScript API</td>
+            </tr>
+        </table>
+
+        <hr />
+        
+        <h2>registration Form</h2>
+        <!-- Forms: type - text, radio, checkbox, email, date, password-->
+        <form action="">
+            <label for="fname">First Name</label> <br /> 
+            <input type="text" name="fname" placeholder="Enter First Name" /><br />
+            <label for="lname">Last Name</label> <br />
+            <input type="text" name="lname" placeholder="Enter Last Name"> <br />
+
+            <label for="gender">Male:</label>
+            <input type="radio" value="male" name="gender" />
+            <label for="gender">Female:</label>
+            <input type="radio" value="female" name="gender" /> <br />
+
+            <label for="hobbies">Hobbies</label> <br />
+            <input type="checkbox" name="hobbies1" value="Cycling" />
+            <label for="hobbies1">Cycling</label> <br />
+            <input type="checkbox" name="hobbies1" value="reading" />
+            <label for="hobbies2">Reading</label> <br />
+            <input type="checkbox" name="hobbies1" value="cooking" />
+            <label for="hobbies1">Cooking</label> <br />
+            <input type="checkbox" name="hobbies1" value="travelling" />
+            <label for="hobbies1">Travelling</label> <br />
+
+            <label for="agegroup">Age Group</label>
+            <select>
+                <option value="">Select Option</option>
+                <option value="School">10-20</option>
+                <option value="College">21-25</option>
+                <option value="Working">26-40</option>
+            </select> <br />
+            <button type="submit">Submit</button>
+        </form>
+
+        <hr />
+
+        <!-- Iframe: iframes are like if you want to display some other's websites in your html. -->
+        <iframe src="" width="400px" height="400px">Wikipedia link</iframe>
+        <iframe src="" width="300px" height="400px">You tube link</iframe>
+        
+        <hr />
+
+        <!--Audio & Video-->
+        <audio controls>
+            <source src="audio_link" type="audio/mp3" />
+        </audio>
+        
+        <video controls>
+            <source src="video_link" type="video/mp4" />
+        </video>
+
+        <hr />
+
+        <!--HtML SemanticsElements: header, footer, nav, section, aside-->
+        
+        <!--Use the trick li*4 -->
+        <!--May divide web pages into sections using <section> tag.-->
+        </body>
+</html>
