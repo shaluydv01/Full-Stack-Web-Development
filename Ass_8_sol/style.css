@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0BA8E6;
+    color: #444444;
+    font-weight: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+.logo{
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.user{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #0BA8E6;
+    align-content: center;
+}
+
+.list{
+    align-content: center;
+    width: 75%;
+}
+
+.unorder-list{
+    display: flex;
+    justify-content: center;
+    margin: 0 0px;
+    padding: 0 0px;
+    column-gap: 15%;
+}
+
+li{
+    list-style: none;
+}
+
+.content-container{
+    margin: 2.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0 1rem;
+    font-size: 18px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1, .text-2, .text-3{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0.3rem 0rem;
+}
+
+.text-3{
+    color: #0BA8E6;
+}
+
+.text-4{
+    color: #676767;
+}
+
+button{
+    width: 50%;
+    margin-top: 2rem;
+    height: 3rem;
+    background-color: #0BA8E6;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:  rotate(-5deg) scale(1.1);
+    transition: ease-out;
+}
+
+.image-container{
+    width: 50%;
+    height: 100%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 90%;
+}
+
+@media all and (max-width: 769px){
+    .navbar-container{
+        width: 100%;
+        margin: 0 0rem;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .content-container{
+        margin: 1rem 1rem;
+    }
+
+    .text-container{
+        padding: 0 0.2rem;
+        font-size: 18px;
+    }
+
+    .image-container{
+        padding: 10% 0%;
+    }
+
+}
+
+@media all and (max-width: 376px){
+    
+    *{
+        font-size: 16px;
+    }
+
+    body{
+        overflow: auto;
+    }
+
+    .content-container{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .text-container{
+        height: 50%;
+        width: 100%;
+    }
+
+    .text-1, .text-2, .text-3{
+        font-size: 1.8rem;
+        padding: 0.1rem 0;
+    }
+
+    .image-container{
+        width: 100%;
+        height: 50%;
+    }
+}
