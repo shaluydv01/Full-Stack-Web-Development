@@ -1,2 +1,2 @@
 # Html_and_css_resources
-This repository contains all the "HTML and CSS" task's resources from basic to advance. Just grab it and play with it.
+This repository contains all the tasks topic-wise created while learning Full Stack Development using MERN Stock.
