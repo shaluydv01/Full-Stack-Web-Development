@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+}
+
+nav{
+    padding: 1rem;
+    text-align: center;
+    background-color: #b7b7b7;
+}
+
+.container-main{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+}
+
+#box-1, #box-2, #box-3, #box-4{
+    border: 1px solid #676767;
+    padding: 1rem;
+}
+
+input{
+    height: 1.5rem;
+}
+
+#submitBtn{
+    height: 1.8rem;
+}
+
+@media all and (max-width: 395px){
+    .container{
+        gap: 1rem;
+    }
+}
+
